@@ -46,7 +46,6 @@ const reducer = (state = initialState, action) => {
                     totalPrice: state.totalPrice + newItem.price
                 }
             };
-            debugger;
             const item = state.menu.find(item => item.id === id);
             const newItem = {
                 title: item.title,
